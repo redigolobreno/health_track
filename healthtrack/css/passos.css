@@ -1,0 +1,897 @@
+
+
+.passos {
+  width               : 100%;
+  min-width           : 320px;
+  height              : 100vh;
+  min-height          : 568px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(250, 248, 243, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.passos .mainbackground {
+  background-color    : rgba(247, 248, 249, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .div {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 3px;
+  width               : 100%;
+  margin-top          : -210px;
+  position            : relative;
+  margin-bottom       : 210px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .div-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : calc(100.00% + 1px);
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0px;
+}
+.passos .div-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .div .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 2px;
+  width               : 322px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .div .line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : calc(100.00% - 1px);
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .content {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : 0px;
+  height              : 28px;
+  width               : 139px;
+  margin-top          : 135px;
+  margin-left         : -0px;
+  position            : relative;
+  margin-bottom       : -135px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .content-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .content-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .content .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  width               : auto;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(143, 155, 180, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.passos .content .label1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .content .label1-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .contador {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : 0px;
+  height              : 243px;
+  width               : 243px;
+  margin-top          : -32px;
+  margin-left         : -0px;
+  position            : relative;
+  margin-bottom       : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 2.0s ease-in-out;
+}
+.passos .contador-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .contador-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .contador {
+  pointer-events      : auto;
+}
+.passos .contador:hover {
+  transform           : scale(0.9);
+}
+.passos .contador .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 243px;
+  width               : 243px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .contador .ovalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 160px;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .contador .ovalcopy1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : 130px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 46px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .contador .a60006000passos {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 118px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(143, 155, 180, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.passos .contador .a100 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 82px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(84, 94, 117, 1.0);
+  text-align          : center;
+  line-height         : 37.0px;
+}
+.passos .view1 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : -111px;
+  height              : 48px;
+  width               : 48px;
+  margin-top          : 236px;
+  margin-left         : 111px;
+  position            : relative;
+  margin-bottom       : -236px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .view1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .view1-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .view1 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 48px;
+  width               : 48px;
+  transform           : rotate(0deg);
+  opacity             : 0.1;
+}
+.passos .view1 .rectangle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .view1 .rectangle-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .view1 .perfil {
+  background-color    : rgba(255,255,255,0.0);
+  height              : auto;
+  width               : auto;
+  margin-top          : 11px;
+  position            : relative;
+  margin-bottom       : -11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 7.0px;
+  color               : rgba(143, 155, 180, 1.0);
+  text-align          : center;
+  line-height         : 8.0px;
+}
+.passos .view1 .perfil-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .view1 .perfil-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .view1 .vector3 {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 18px;
+  width               : 18px;
+  margin-top          : -7px;
+  position            : relative;
+  margin-bottom       : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .view1 .vector3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .view1 .vector3-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .view1 .vector3 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .view2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 496px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 173px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .view2 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 48px;
+  width               : 48px;
+  transform           : rotate(0deg);
+  opacity             : 0.1;
+}
+.passos .view2 .rectangle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .view2 .rectangle-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .view2 .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  height              : auto;
+  width               : auto;
+  margin-top          : 12px;
+  position            : relative;
+  margin-bottom       : -12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 7.0px;
+  color               : rgba(143, 155, 180, 1.0);
+  text-align          : center;
+  line-height         : 8.0px;
+}
+.passos .view2 .label1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .view2 .label1-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .view2 .vector2 {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 18px;
+  width               : 18px;
+  margin-top          : -6px;
+  position            : relative;
+  margin-bottom       : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .view2 .vector2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .view2 .vector2-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .view2 .vector2 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .botao2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 496px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .botao2 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 48px;
+  width               : 48px;
+  transform           : rotate(0deg);
+  opacity             : 0.1;
+}
+.passos .botao2 .rectangle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .botao2 .rectangle-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .botao2 .vector1 {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 18px;
+  width               : 18px;
+  margin-top          : -6px;
+  position            : relative;
+  margin-bottom       : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .botao2 .vector1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .botao2 .vector1-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .botao2 .vector1 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .botao2 .jejum {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : 0px;
+  height              : auto;
+  width               : auto;
+  margin-top          : 12px;
+  margin-left         : -0px;
+  position            : relative;
+  margin-bottom       : -12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 7.0px;
+  color               : rgba(143, 155, 180, 1.0);
+  text-align          : center;
+  line-height         : 8.0px;
+}
+.passos .botao2 .jejum-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .botao2 .jejum-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .view3 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : 112px;
+  height              : 48px;
+  width               : 48px;
+  margin-top          : 236px;
+  margin-left         : -112px;
+  position            : relative;
+  margin-bottom       : -236px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .view3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .view3-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .view3 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 48px;
+  width               : 48px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .view3 .rectangle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .view3 .rectangle-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .view3 .passos1 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : -0px;
+  height              : auto;
+  width               : auto;
+  margin-top          : 12px;
+  margin-left         : 0px;
+  position            : relative;
+  margin-bottom       : -12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 7.0px;
+  color               : rgba(249, 128, 125, 1.0);
+  text-align          : center;
+  line-height         : 9.0px;
+}
+.passos .view3 .passos1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .view3 .passos1-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .view3 .vector {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 18px;
+  width               : 14px;
+  margin-top          : -7px;
+  position            : relative;
+  margin-bottom       : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .view3 .vector-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .view3 .vector-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .view3 .vector .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .h2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : 106px;
+  height              : 22px;
+  width               : 43px;
+  margin-top          : -167px;
+  margin-left         : -106px;
+  position            : relative;
+  margin-bottom       : 167px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .h2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .h2-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .h2 .hoje {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  width               : auto;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(84, 94, 117, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 23.0px;
+}
+.passos .h2 .hoje-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.passos .h2 .hoje-layout-container > * {
+  pointer-events      : auto;
+}
+.passos .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 24px;
+  width               : 74px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.passos .title .passos1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(84, 94, 117, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 25.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}

@@ -1,0 +1,1042 @@
+
+
+.refeicao {
+  width               : 100%;
+  min-width           : 320px;
+  height              : 100vh;
+  min-height          : 568px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(250, 248, 243, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.refeicao .mainbackground {
+  background-color    : rgba(247, 248, 249, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .div {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 3px;
+  width               : 100%;
+  margin-top          : -104px;
+  position            : relative;
+  margin-bottom       : 104px;
+  transform           : rotate(0deg);
+  opacity             : 0.1;
+}
+.refeicao .div-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 1px;
+}
+.refeicao .div-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .div .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 1px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .div .line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .div1 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : 36px;
+  height              : 2px;
+  width               : 93px;
+  margin-top          : -106px;
+  margin-left         : -36px;
+  position            : relative;
+  margin-bottom       : 106px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .div1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .div1-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .div1 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .div1 .line1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 1px;
+  width               : 93px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .div1 .line1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .div1 .line1-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .content {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : 54px;
+  height              : 48px;
+  width               : 169px;
+  margin-top          : 124px;
+  margin-left         : -54px;
+  position            : relative;
+  margin-bottom       : -124px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .content-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .content-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .content .a16min456caloria {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  width               : auto;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue-Light", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(143, 155, 180, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.refeicao .content .a16min456caloria-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 17px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .content .a16min456caloria-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .content .robaloaomolhodem {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(84, 94, 117, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.refeicao .view1 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : -37px;
+  height              : 48px;
+  width               : 48px;
+  margin-top          : 236px;
+  margin-left         : 37px;
+  position            : relative;
+  margin-bottom       : -236px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .view1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .view1-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .view1 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 48px;
+  width               : 48px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .view1 .rectangle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .view1 .rectangle-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .view1 .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  height              : auto;
+  width               : auto;
+  margin-top          : 12px;
+  position            : relative;
+  margin-bottom       : -12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 7.0px;
+  color               : rgba(249, 128, 125, 1.0);
+  text-align          : center;
+  line-height         : 8.0px;
+}
+.refeicao .view1 .label1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .view1 .label1-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .view1 .vector2 {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 18px;
+  width               : 18px;
+  margin-top          : -6px;
+  position            : relative;
+  margin-bottom       : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .view1 .vector2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .view1 .vector2-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .view1 .vector2 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 24px;
+  width               : 178px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .title .title1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(84, 94, 117, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 25.0px;
+}
+.refeicao .images {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 168px;
+  width               : 840px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .images-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .images-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .images .image3 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 168px;
+  width               : 100%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .images .image3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : 272px;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0px;
+}
+.refeicao .images .image3-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .images .image2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 168px;
+  width               : 100%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .images .image2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : 272px;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 284px;
+}
+.refeicao .images .image2-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .images .image1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 168px;
+  width               : 100%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .images .image1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : 272px;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 568px;
+}
+.refeicao .images .image1-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .group {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : -3px;
+  height              : 16px;
+  width               : 406px;
+  margin-top          : -123px;
+  margin-left         : 3px;
+  position            : relative;
+  margin-bottom       : 123px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .group-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .group-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .group .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : -38px;
+  height              : auto;
+  width               : auto;
+  margin-right        : 38px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(249, 128, 125, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.refeicao .group .label1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .group .label1-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .group .lanche {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 56px;
+  height              : auto;
+  width               : auto;
+  margin-right        : -56px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue-Light", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(84, 94, 117, 0.5);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.refeicao .group .lanche-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .group .lanche-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .group .sobremesas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 325px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue-Light", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(84, 94, 117, 0.5);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.refeicao .group .label2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  width               : auto;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue-Light", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(84, 94, 117, 0.5);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.refeicao .group .label2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : auto;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : -1px;
+}
+.refeicao .group .label2-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .view2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 496px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .view2 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 48px;
+  width               : 48px;
+  transform           : rotate(0deg);
+  opacity             : 0.1;
+}
+.refeicao .view2 .rectangle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .view2 .rectangle-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .view2 .jejum {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : 0px;
+  height              : auto;
+  width               : auto;
+  margin-top          : 12px;
+  margin-left         : -0px;
+  position            : relative;
+  margin-bottom       : -12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 7.0px;
+  color               : rgba(143, 155, 180, 1.0);
+  text-align          : center;
+  line-height         : 8.0px;
+}
+.refeicao .view2 .jejum-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .view2 .jejum-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .view2 .vector1 {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 18px;
+  width               : 18px;
+  margin-top          : -6px;
+  position            : relative;
+  margin-bottom       : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .view2 .vector1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .view2 .vector1-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .view2 .vector1 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .view3 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : -111px;
+  height              : 48px;
+  width               : 48px;
+  margin-top          : 236px;
+  margin-left         : 111px;
+  position            : relative;
+  margin-bottom       : -236px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .view3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .view3-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .view3 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 48px;
+  width               : 48px;
+  transform           : rotate(0deg);
+  opacity             : 0.1;
+}
+.refeicao .view3 .rectangle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .view3 .rectangle-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .view3 .perfil {
+  background-color    : rgba(255,255,255,0.0);
+  height              : auto;
+  width               : auto;
+  margin-top          : 11px;
+  position            : relative;
+  margin-bottom       : -11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 7.0px;
+  color               : rgba(143, 155, 180, 1.0);
+  text-align          : center;
+  line-height         : 8.0px;
+}
+.refeicao .view3 .perfil-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .view3 .perfil-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .view3 .vector3 {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 18px;
+  width               : 18px;
+  margin-top          : -7px;
+  position            : relative;
+  margin-bottom       : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .view3 .vector3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .view3 .vector3-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .view3 .vector3 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .view4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 496px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .view4 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 48px;
+  width               : 48px;
+  transform           : rotate(0deg);
+  opacity             : 0.1;
+}
+.refeicao .view4 .rectangle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .view4 .rectangle-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .view4 .passos {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : -0px;
+  height              : auto;
+  width               : auto;
+  margin-top          : 12px;
+  margin-left         : 0px;
+  position            : relative;
+  margin-bottom       : -12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 7.0px;
+  color               : rgba(143, 155, 180, 1.0);
+  text-align          : center;
+  line-height         : 9.0px;
+}
+.refeicao .view4 .passos-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .view4 .passos-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .view4 .vector {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 18px;
+  width               : 14px;
+  margin-top          : -6px;
+  position            : relative;
+  margin-bottom       : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.refeicao .view4 .vector-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.refeicao .view4 .vector-layout-container > * {
+  pointer-events      : auto;
+}
+.refeicao .view4 .vector .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
